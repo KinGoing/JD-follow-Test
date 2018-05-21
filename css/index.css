@@ -1,0 +1,71 @@
+/*顶栏*/
+.title_main{width: 100%;height: 30px;line-height: 30px;background: #eeeeee;box-shadow: 2px 2px 5px #bbb;position: fixed;top: 0px;z-index: 999;}
+.title_main #left{text-align: left;float: left;margin-left:13.5% ;}
+.title_main #right{text-align: right;margin-right: 13.5%;}
+.title_main a{color: #22447b;}
+/*全局*/
+#container{width: 990px;margin: 30px auto;}
+.clr{clear: both;height: 0px;width: 0px;}
+/*字体*/
+#left,#right,.tt_rl font{font:12px /30px arial;}
+.right,.fh font,,.text dl dt,.text dl dd{font-size:12px;}
+.list ul li,.gg p,.block_tc p{font: 12px arial;}
+/*头部*/
+.allwarp{clear: both;}
+.logo_title{width: 990px;position: relative;margin: 0 auto;}
+.logo_title img{float: left;padding: 20px 40px 20px 6px;}
+.logo_title .searchform{float: left; margin-top: 25px;}
+.logo_title .searchform #key{float: left;height: 24px;line-height: 24px;padding:4px;border-width:2px 0 2px 2px;border-color:#b61d1d;border-style:solid;font-size:14px;width:320px;outline:0;color: rgb(153, 153, 153);}
+.logo_title .searchform #submit{float: left;width:82px;height:36px;background:#b61d1d;border:none;color:#fff;font-size:16px;}
+.logo_title .right{width:75px;height:34px;border:1px solid #dfdfdf;padding:0 28px 0 34px;text-align:center;line-height:34px;float:right;margin-right:0px;margin-top:25px;position:relative;}
+.logo_title .gouwuche{position:absolute;top:10px;left:17px;}
+.logo_title .go_right{float: right;font: 400 13px/13px "simsun";top:10px;position:absolute;right:11px;color:#999}
+.title_bar{border-radius:6% 6% 0 0;height: 38px;background: #C70000;}
+.title_bar li{float: left;}
+.title_bar a{color: white;font:bold 14px /38px arial,sans-serif;height: 38px;width: 120px;display: block;text-align: center;}
+.title_bar a:hover{background: darkred;}
+/*main*/
+.tt_left{position: absolute;width: 200px;margin-top: 16px;}
+.tt_left .l{border: 1px solid #BBBBBB;margin-bottom: 10px;}
+.l .tt_lt{background: #C70000;height: 27px;}
+.l .tt_lt a{color: white;font: bold 14px /27px arial,sans-serif;margin-left: 10px;}
+.text dl{border-bottom:1px solid #ececec; margin: 7px 10px;height: 60px;}
+.text dl dt{color:000000; font-weight:bolder; margin:6px 0px;}
+.text dl dd{padding-left:15px;margin-bottom:3px;}
+.text dd p{width:45%; margin:1px 2px; height:17px; overflow:hidden; display:block; float:left;}
+.list {height: 215px;}
+.list ul li{border-bottom:1px solid #ececec;padding: 9px;}
+.list ul .pr{float: right;}
+.pp img{width: 80px;margin: 8px 0px 8px 10px;border: 1px solid #ececec;}
+.l #l_bg{width: 200px;}
+.fh li{border-bottom: 1px dashed #ececec;padding: 10px 0px 10px 10px;}
+.fh h2{display: inline-block;margin-left: 2px;}
+.l #dd_t{width: 170px;border:1px solid #BBBBBB;margin: 8px 12px;}
+.l #dd_b{margin: 0 0 12px 12px;background: url(../images/bg.gif) no-repeat -151px -48px;width: 99px;height: 21px;font: 12px arial;border: none;font-weight:100}
+.tt_right{width: 780px;margin-top: 20px;position: relative;left: 210px;}
+.bg_img{position: absolute;}
+.tt_rt1{border: 1px solid #ececec;height: 165px;width: 198px;position: absolute;right: 0px;}
+.tt_rt1 h1{font: bolder 13px /30px "微软雅黑";height: 30px;background: url(../images/index_hot.gif) repeat-x;padding-left: 10px;}
+.gg p{padding: 10px;line-height: 25px;}
+.tt_rt1 img{position: absolute;top: 175px;}
+.tt_rl{height: 30px;background: url(../images/index_hot.gif) repeat-x;}
+.tt_rl h1{font:bolder 13px /30px arial;float: left;margin-left: 10px;}
+.tt_rl font{font-weight: 100;float: right;margin-right: 35px;}
+.tt_rl a{;color: #888888;margin-right: 10px;}
+.r{border: 1px solid #BBBBBB;margin-bottom: 10px;}
+.r1{height: 310px;margin-bottom: 15px;}
+.good{margin: 10px 6px 15px 12px;float: left;}
+.good img{height: 172px;width: 172px;border: 1px solid #ececec;}
+.good h1{text-align: center;}
+.good p{text-align: center;color: #FF6C02;}
+/*block*/
+.block{height: 130px;border: 1px solid #BBBBBB;margin-top: 15px;margin-bottom: 10px;}
+.bl{float: left;border-right: 1px solid #ececec;margin-top: 25px;}
+.bl dl{padding: 0 65px 0 20px;}
+.bl dl dt{font-weight: bolder;font-size: 13px;margin-bottom: 10px;}
+.bl dl a{font-size: 12px;}
+.bl dl a:hover{color: red;}
+#rx{margin-top: 22px;float: left;margin-left: 25px;}
+#rx span,h2{font-size: 11px;}
+.block_tc{text-align: center;}
+.block_tc p{margin-top: 10px;}
